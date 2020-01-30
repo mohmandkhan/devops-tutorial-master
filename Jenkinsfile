@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("edureka1/edureka")
+        app = docker.build("majidkhanmohmand/edureka1")
     }
 
     stage('Push image') {
